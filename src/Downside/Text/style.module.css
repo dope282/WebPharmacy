@@ -1,0 +1,7 @@
+.text {
+    position: absolute;
+    top: 20%;
+    color: white;
+    box-sizing: border-box;
+    font-size: 100%;
+}

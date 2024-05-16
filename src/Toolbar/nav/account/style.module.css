@@ -1,0 +1,15 @@
+.Logos {
+    box-sizing: border-box;
+}
+/* .Logos a:hover,
+.Logos a:active,
+.Logos img.active {
+    background-color: red;
+    border-bottom: 4px solid #40a4c8;
+} */
+.Logos img 
+{
+    padding-right: 6%;
+    height: 70%;
+    padding-top: 6%;
+}
