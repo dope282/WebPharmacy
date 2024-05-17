@@ -1,0 +1,21 @@
+.Categories
+{   
+    position: absolute;
+    top: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.Item {
+    background-color: white;
+    border: rgb(236, 236, 236) solid 1px;
+    border-radius: 20px;
+    margin-top: 1%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
+}

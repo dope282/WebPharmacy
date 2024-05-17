@@ -5,19 +5,19 @@ import SearchBox from './Searchbox';
 import ShowImg from './ShowCase';
 import DownSide from './Downside';
 import Page2 from './Page2/index';
-import { BrowserRouter, Route, Switch} from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Switch} from 'react-router-dom';
+import Page3 from './Page3';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App-header">
-
+        <div className="App-header">
           <Toolbar/>
           <SearchBox/>
           <ShowImg/>
           <DownSide/>
-          {/* <Route path="/page2" Component={Page2}/> */}
           <Page2/>
+          <Page3/>
       </div>
     </BrowserRouter>
   );
